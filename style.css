@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Hanken Grotesk', 'sans-serif';
+}
+
+.card {
+    display: flex;
+    width: 500px;
+    height: 350px;
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 5px 10px 20px hsl(221, 100%, 96%);
+}
+
+.card-1 {
+    width: 250px;
+    height: 350px;
+    background: radial-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 20px;
+    align-content: center;
+    text-align: center;
+}
+
+.your-result {
+    margin: 20px 20px 25px;
+    color: hsl(241, 100%, 89%);
+}
+
+.circle {
+    position: relative;
+    width: 125px;
+    margin-left: 25%;
+    height: 125px;
+    border-radius: 50%;
+    line-height: 4px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.score {
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+.total {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: hsl(0, 0%, 100%);
+}
+
+.total-over {
+    font-size: .7rem;
+    font-weight: 700;
+    color: hsl(241, 100%, 89%);
+}
+
+.great {
+    font-size: 1.2rem;
+    margin-top: 25px;
+    color: hsl(0, 0%, 100%);
+}
+
+.remark {
+    font-size: .8rem;
+    margin: 15px 35px;
+    color: hsl(241, 100%, 89%);
+}
+
+.card-2 {
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.summary {
+    width: fit-content;
+    margin: 20px 25px;
+    color: hsl(224, 30%, 27%);
+}
+
+.details {
+    display: flex;
+}
+
+.reaction {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 25px;
+    padding: 10px;
+    border-radius: 8px;
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 67%, 0.05);
+}
+
+.memory {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 25px;
+    padding: 10px;
+    border-radius: 8px;
+    color: hsl(39, 100%, 56%);
+    background-color:  hsl(39, 100%, 56%, 0.05);
+}
+
+.verbal {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 25px;
+    padding: 10px;
+    border-radius: 8px;
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 37%, 0.05);
+} 
+
+.visual {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 25px;
+    padding: 10px;
+    border-radius: 8px;
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 45%, 0.05);
+}
+
+h5 {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.result-score {
+    margin: 0;
+    font-size: .8rem;
+    font-weight: 800;
+    color: hsl(224, 30%, 27%);
+}
+
+span {
+    color: hsl(241, 100%, 89%);
+}
+
+button {
+    width: 200px;
+    height: 35px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: .8rem;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(224, 30%, 27%);
+}
+
+button:hover {
+    background: radial-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 375px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .card {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        border-radius: 0;
+    }
+    .card-1 {
+        height: 315px;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .card-2 {
+        height: 340px;
+    }
+
+    .remark {
+        font-size: .7rem;
+        margin: 10px 25px;
+        color: hsl(241, 100%, 89%);
+    }
+
+    .attribution {
+        display: none;
+    }
+}
+
+
+@media (min-width: 1440px) {
+
+}
